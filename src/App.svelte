@@ -12,16 +12,14 @@
 	import Contact from "./pages/Contact.svelte";
 </script>
 
-<div class="container">
-	<Router>
-		<NavBar />
-		<div>
-			<Route path="contact" component="{Contact}" />
-			<Route path="about" component="{About}" />
-			<Route path="/"><Home /></Route>
-	</div>
-	</Router>
+<Router>
+	<NavBar />
+	<div class="container">
+		<Route path="contact" component="{Contact}" />
+		<Route path="about" component="{About}" />
+		<Route path="/"><Home /></Route>
 </div>
+</Router>
 
 <style>
 
