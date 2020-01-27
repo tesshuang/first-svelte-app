@@ -1,5 +1,4 @@
 <script>
-	// export let name;
 
 	import "../node_modules/materialize-css/dist/css/materialize.min.css";
 	import "../node_modules/materialize-css/dist/js/materialize.min.js";
@@ -17,7 +16,7 @@
 	<div class="container">
 		<Route path="contact" component="{Contact}" />
 		<Route path="about" component="{About}" />
-		<Route path="/"><Home /></Route>
+		<Route path="/" ><Home name={"World"} /></Route>
 </div>
 </Router>
 
