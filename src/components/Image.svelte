@@ -2,8 +2,7 @@
 
   document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelectorAll('.materialboxed');
-    let instances = M.Materialbox.init(elems, options);
-    var instance = M.Materialbox.getInstance(elem);
+    let instances = M.Materialbox.init(elems);
   });
 </script>
 
